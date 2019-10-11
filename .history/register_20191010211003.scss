@@ -1,0 +1,488 @@
+.section2{
+    width: 100%;
+    height: 100px;
+    background: #eeeeee;
+    position: relative;
+}
+.mycount{
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    top: 50px;
+    font-weight: 600;
+}
+*{
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+html,body{
+    overflow-x:hidden;
+}
+
+            .header{
+                width:100%;
+                height:100px;
+                position: relative;
+            }
+            .header span{
+                font-size: 14px;
+            }
+
+
+            .logoBox{
+            width:100px;
+            height:100px;
+                float:left;
+
+            }
+
+.pumaLogo{
+    margin-top:30px;
+    margin-left:20px;
+}
+            .header  a
+            {
+                text-decoration:none;
+                display:block; 
+                width:180px; 
+                height:50px;
+                color:black;
+                font-weight:bold;
+                }
+        
+                    .daohang{
+                        margin-left:40px;
+                        width:400px;
+                        height:100px;
+                        display: flex;
+                    }
+                    .man{
+                        width:25%;
+                        height:100px;
+                        line-height: 100px;
+                        text-indent: 30px;
+                        font-weight: 600;
+                    }
+                    .woman{
+                        width:25%;
+                        height:100px;
+                        line-height: 100px;
+                        text-indent: 30px;
+                        font-weight: 600;
+
+                    }
+                    .child{
+                        width:25%;
+                        height:100px;
+                        line-height: 100px;
+                        text-indent: 30px;
+                        font-weight: 600;
+
+                    }
+                    .search{
+                        width:25%;
+                        height:100px;
+                        line-height: 100px;
+                        text-indent: 30px;
+                        font-weight: 600;
+
+                    }
+    
+.carBox{
+    width:100px;
+    height:100px;
+    float: right;
+    position: absolute;
+    top:0;
+    right: 0;
+}   
+.car{
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+}     
+  .searchBox{
+    width:100px;
+    height:100px;
+    float: right;
+    position: absolute;
+    top:0;
+    right: 100px;
+  }   
+.searchPhoto{
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+}
+.chinaBox{
+    width:100px;
+    height:100px;
+    float: right;
+    position: absolute;
+    top:0;
+    right: 200px;
+}
+.china{
+  
+        position: absolute;
+        left:20px;
+        right:0;
+        top:0;
+        bottom:0;
+        margin:auto;
+   
+}
+.p01{
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    left: 40px;
+    top:70px;
+}
+.p02{
+ 
+        width: 50px;
+        height: 20px;
+        position: absolute;
+        left: 40px;
+        top:70px;
+ 
+}
+.personBox{
+    width:100px;
+    height:100px;
+    float: right;
+    position: absolute;
+    top:0;
+    right: 300px;
+}
+.person{
+    position: absolute;
+    left:20px;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+}
+.serverBox{
+    width:100px;
+    height:100px;
+    float: right;
+    position: absolute;
+    top:0;
+    right: 400px;
+}
+.p03{
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    left: 15px;
+    top:70px;  
+}
+.p04{
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    left: 38px;
+    top:70px;  
+}
+.p05{
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    left: 30px;
+    top:70px;  
+}
+.serverPhoto{
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+}
+
+.manMeng{
+    width: 900px;
+    height: 700px;
+    margin-left: 0px;
+    margin-top:20px;
+    display: none;
+position: relative;
+background: white;
+    z-index: 1;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.manMeng ul{
+    float: left;
+background: #eeeeee;
+border-radius: 20px;
+
+}
+.manMeng  li{
+    width: 150px;
+    height: 80px;
+    margin-left: 50px;
+    list-style: none;
+    border: 1px solid white;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 80px;
+    text-indent: 20px;
+    border-bottom: none;
+    border-radius: 10px;
+    /* background: red; */
+}
+.goods{
+    float: left;
+    line-height: 35px;
+    text-indent: 40px;
+}
+.photo01{
+    position: absolute;
+    float: right;
+   right: 0;
+   top: 100px;
+}
+.man:hover  .manMeng{
+    display: block;
+}
+
+
+.womanMeng{
+    width: 900px;
+    height: 700px;
+    margin-left: 0px;
+    margin-top:20px;
+    display: none;
+position: relative;
+z-index: 1;
+background: white;
+border-radius: 20px;
+
+
+    /* background: pink; */
+}
+
+.womanMeng ul{
+    float: left;
+background: #eeeeee;
+border-radius: 20px;
+
+}
+.womanMeng  li{
+    width: 150px;
+    height: 80px;
+    margin-left: 50px;
+    list-style: none;
+    border: 1px solid #eeeeee;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 80px;
+    text-indent: 20px;
+    border-bottom: none;
+border: 1px solid white;
+
+    /* background: red; */
+}
+.woman:hover  .womanMeng{
+    display: block;
+}
+
+      
+
+     
+.childMeng{
+    width: 1000px;
+    height: 700px;
+    margin-left: 0px;
+    margin-top:20px;
+    display: none;
+position: relative;
+border-radius: 20px;
+z-index: 10;
+
+    background:white;
+}
+
+.childMeng    ul{
+    float: left;
+background: #eeeeee;
+border-radius: 20px;
+}
+.childMeng    li{
+    width: 150px;
+    height: 80px;
+    margin-left: 50px;
+    list-style: none;
+    border: 1px solid white;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 80px;
+    text-indent: 20px;
+    border-bottom: none;
+    /* background: red; */
+
+}
+.child:hover  .childMeng{
+    display: block;
+}
+
+                        // local
+.local{
+    width: 100%;
+    height: 600px;
+    background: white;
+    display: flex;
+}
+.localLeft{
+    width: 50%;
+    height: 600px;
+    // background: pink;
+    border-right: 1px solid #eeeeee;
+    position: relative;
+}
+.localRight{
+    width: 50%;
+    height: 600px;
+    // background: yellow;
+}
+.download{
+    width:400px;
+    height: 50px;
+    margin-left: 80px;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 50px;
+    background: #eeeeee;
+    text-indent: 50px;
+    border-radius: 10px ;
+}
+.register{
+    width:400px;
+    height: 50px;
+    margin-left: 80px;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 50px;
+    background: #eeeeee;
+    text-indent: 50px;
+    border-radius: 10px ;
+
+}
+.q01{
+    width:350px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 60px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 50px;
+    border:1px solid red;
+    border-radius: 5px;
+}
+.s01{
+    width:350px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 50px;
+    border:1px solid red;
+    border-radius: 5px;
+}
+.forget{
+    width: 70px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
+    text-decoration: none;
+// background: red;
+}
+.remember{
+    width: 20px;
+    height: 20px;
+    background: white;
+    margin-left: 100px;
+    margin-top:20px;
+    border: 1px solid black;
+}
+.remMe{
+    position: absolute;
+    left: 100px;
+    top:290px;
+    margin-left: 20px;
+}
+.reg{
+    width: 200px;
+    height: 60px;
+    background: black;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 60px;
+    text-indent: 80px;
+    margin-left: 200px;
+    border-radius: 10px;
+}
+.reg a{
+    text-decoration:none;
+    color: white;
+}
+.localRight{
+    .q02 {
+        width:350px;
+        height: 50px;
+        margin-left: 100px;
+        margin-top: 60px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 50px;
+        border:1px solid red;
+        border-radius: 5px;
+    }
+    .s02{
+        width:350px;
+        height: 50px;
+        margin-left: 100px;
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 50px;
+        border:1px solid red;
+        border-radius: 5px;
+    }
+    .s03{
+        width:350px;
+        height: 50px;
+        margin-left: 100px;
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 50px;
+        border:1px solid red;
+        border-radius: 5px;
+    }
+}
+.other{
+    width: 400px;
+    height: 80px;
+    // background: pink;;
+    margin-top: 40px;
+    margin-left:80px;
+
+}
