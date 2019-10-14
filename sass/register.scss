@@ -1,0 +1,599 @@
+.section2 {
+  width: 100%;
+  height: 100px;
+  background: #eeeeee;
+  position: relative; }
+
+.mycount {
+  font-size: 20px;
+  position: absolute;
+  left: 20px;
+  top: 50px;
+  font-weight: 600; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+html, body {
+  overflow-x: hidden; }
+
+.header {
+  width: 100%;
+  height: 100px;
+  position: relative; }
+
+.header span {
+  font-size: 14px; }
+
+.logoBox {
+  width: 100px;
+  height: 100px;
+  float: left; }
+
+.pumaLogo {
+  margin-top: 30px;
+  margin-left: 20px; }
+
+.header a {
+  text-decoration: none;
+  display: block;
+  width: 180px;
+  height: 50px;
+  color: black;
+  font-weight: bold; }
+
+.daohang {
+  margin-left: 40px;
+  width: 400px;
+  height: 100px;
+  display: flex; }
+
+.man {
+  width: 25%;
+  height: 100px;
+  line-height: 100px;
+  text-indent: 30px;
+  font-weight: 600; }
+
+.woman {
+  width: 25%;
+  height: 100px;
+  line-height: 100px;
+  text-indent: 30px;
+  font-weight: 600; }
+
+.child {
+  width: 25%;
+  height: 100px;
+  line-height: 100px;
+  text-indent: 30px;
+  font-weight: 600; }
+
+.search {
+  width: 25%;
+  height: 100px;
+  line-height: 100px;
+  text-indent: 30px;
+  font-weight: 600; }
+
+.carBox {
+  width: 100px;
+  height: 100px;
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+.car {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto; }
+
+.searchBox {
+  width: 100px;
+  height: 100px;
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 100px; }
+
+.searchPhoto {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto; }
+
+.chinaBox {
+  width: 100px;
+  height: 100px;
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 200px; }
+
+.china {
+  position: absolute;
+  left: 20px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto; }
+
+.p01 {
+  width: 50px;
+  height: 20px;
+  position: absolute;
+  left: 40px;
+  top: 70px; }
+
+.p02 {
+  width: 50px;
+  height: 20px;
+  position: absolute;
+  left: 40px;
+  top: 70px; }
+
+.personBox {
+  width: 100px;
+  height: 100px;
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 300px; }
+
+.person {
+  position: absolute;
+  left: 20px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto; }
+
+.serverBox {
+  width: 100px;
+  height: 100px;
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 400px; }
+
+.p03 {
+  width: 50px;
+  height: 20px;
+  position: absolute;
+  left: 15px;
+  top: 70px; }
+
+.p04 {
+  width: 50px;
+  height: 20px;
+  position: absolute;
+  left: 38px;
+  top: 70px; }
+
+.p05 {
+  width: 50px;
+  height: 20px;
+  position: absolute;
+  left: 30px;
+  top: 70px; }
+
+.serverPhoto {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto; }
+
+.manMeng {
+  width: 900px;
+  height: 700px;
+  margin-left: 0px;
+  margin-top: 20px;
+  display: none;
+  position: relative;
+  background: white;
+  z-index: 1;
+  border: 1px solid white;
+  border-radius: 20px; }
+
+.manMeng ul {
+  float: left;
+  background: #eeeeee;
+  border-radius: 20px; }
+
+.manMeng li {
+  width: 150px;
+  height: 80px;
+  margin-left: 50px;
+  list-style: none;
+  border: 1px solid white;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 80px;
+  text-indent: 20px;
+  border-bottom: none;
+  border-radius: 10px;
+  /* background: red; */ }
+
+.goods {
+  float: left;
+  line-height: 35px;
+  text-indent: 40px; }
+
+.photo01 {
+  position: absolute;
+  float: right;
+  right: 0;
+  top: 100px; }
+
+.man:hover .manMeng {
+  display: block; }
+
+.womanMeng {
+  width: 900px;
+  height: 700px;
+  margin-left: 0px;
+  margin-top: 20px;
+  display: none;
+  position: relative;
+  z-index: 1;
+  background: white;
+  border-radius: 20px;
+  /* background: pink; */ }
+
+.womanMeng ul {
+  float: left;
+  background: #eeeeee;
+  border-radius: 20px; }
+
+.womanMeng li {
+  width: 150px;
+  height: 80px;
+  margin-left: 50px;
+  list-style: none;
+  border: 1px solid #eeeeee;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 80px;
+  text-indent: 20px;
+  border-bottom: none;
+  border: 1px solid white;
+  /* background: red; */ }
+
+.woman:hover .womanMeng {
+  display: block; }
+
+.childMeng {
+  width: 1000px;
+  height: 700px;
+  margin-left: 0px;
+  margin-top: 20px;
+  display: none;
+  position: relative;
+  border-radius: 20px;
+  z-index: 10;
+  background: white; }
+
+.childMeng ul {
+  float: left;
+  background: #eeeeee;
+  border-radius: 20px; }
+
+.childMeng li {
+  width: 150px;
+  height: 80px;
+  margin-left: 50px;
+  list-style: none;
+  border: 1px solid white;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 80px;
+  text-indent: 20px;
+  border-bottom: none;
+  /* background: red; */ }
+
+.child:hover .childMeng {
+  display: block; }
+
+.local {
+  width: 100%;
+  height: 600px;
+  background: white;
+  display: flex; }
+
+.localLeft {
+  width: 50%;
+  height: 600px;
+  border-right: 1px solid #eeeeee;
+  position: relative; }
+
+.localRight {
+  width: 50%;
+  height: 600px; }
+
+.download {
+  width: 400px;
+  height: 50px;
+  margin-left: 80px;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 50px;
+  background: #eeeeee;
+  text-indent: 50px;
+  border-radius: 10px; }
+
+.register {
+  width: 400px;
+  height: 50px;
+  margin-left: 80px;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 50px;
+  background: #eeeeee;
+  text-indent: 50px;
+  border-radius: 10px; }
+
+.q01 {
+  width: 350px;
+  height: 50px;
+  margin-left: 100px;
+  margin-top: 60px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 50px;
+  border: 1px solid red;
+  border-radius: 5px; }
+
+.s01 {
+  width: 350px;
+  height: 50px;
+  margin-left: 100px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 50px;
+  border: 1px solid red;
+  border-radius: 5px; }
+
+.forget {
+  width: 70px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 100px;
+  text-decoration: none; }
+
+.remember {
+  width: 20px;
+  height: 20px;
+  background: white;
+  margin-left: 100px;
+  margin-top: 20px;
+  border: 1px solid black; }
+
+.remMe {
+  position: absolute;
+  left: 100px;
+  top: 290px;
+  margin-left: 30px; }
+
+.yes {
+  color: black;
+  display: none; }
+
+.remember:hover .yes {
+  display: block; }
+
+.reg {
+  width: 200px;
+  height: 60px;
+  background: black;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 60px;
+  text-indent: 80px;
+  margin-left: 200px;
+  border-radius: 10px; }
+
+.reg a {
+  text-decoration: none;
+  color: white; }
+
+.localRight .q02 {
+  width: 350px;
+  height: 50px;
+  margin-left: 100px;
+  margin-top: 60px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 50px;
+  border: 1px solid red;
+  border-radius: 5px; }
+.localRight .s02 {
+  width: 350px;
+  height: 50px;
+  margin-left: 100px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 50px;
+  border: 1px solid red;
+  border-radius: 5px; }
+.localRight .s03 {
+  width: 350px;
+  height: 50px;
+  margin-left: 100px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 50px;
+  border: 1px solid red;
+  border-radius: 5px; }
+
+.other {
+  width: 400px;
+  height: 80px;
+  margin-top: 40px;
+  margin-left: 80px; }
+
+.canors {
+  margin-left: 150px;
+  top: -20px;
+  position: relative; }
+
+.means {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  margin-left: 120px; }
+
+/* footer */
+.footer {
+  width: 100%;
+  height: 600px;
+  background: yellow; }
+
+.foot {
+  width: 100%;
+  height: 100px;
+  background: #222222; }
+
+.footLogo {
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px; }
+
+.mail {
+  float: right;
+  margin-right: 20px;
+  width: 300px;
+  height: 100px;
+  /* background: red; */ }
+
+.addre {
+  margin-left: 20px; }
+
+.store {
+  margin-left: 20px; }
+
+.mailLmg {
+  float: left;
+  margin-top: 30px;
+  margin-left: 20px; }
+
+.mailAddress {
+  float: right;
+  width: 200px;
+  height: 30px;
+  margin-top: 30px;
+  margin-right: 20px; }
+
+.vans {
+  width: 100%;
+  height: 500px;
+  background: #eeeeee;
+  border-bottom: solid 1px white; }
+
+.puma01 {
+  width: 100%;
+  height: 400px;
+  display: flex; }
+
+.puma02 {
+  width: 100%;
+  height: 100px;
+  /* background: pink; */
+  border-top: solid 1px white; }
+
+.pua01 {
+  width: 33.33%;
+  height: 400px;
+  background: #eeeeee;
+  border-right: solid 2px white; }
+
+.pua02 {
+  width: 33.33%;
+  height: 400px;
+  background: #eeeeee;
+  border-right: solid 2px white; }
+
+.pua03 {
+  width: 33.33%;
+  height: 400px;
+  /* background: red; */ }
+
+.png02 {
+  margin-top: 20px;
+  margin-left: 20px; }
+
+.concat {
+  margin-left: 80px;
+  margin-top: 40px;
+  font-size: 16px;
+  line-height: 40px; }
+
+.png03 {
+  margin-top: 20px;
+  margin-left: 40px; }
+
+.png04 {
+  margin-top: 20px;
+  margin-left: 40px; }
+
+.concat2 {
+  margin-left: 150px;
+  margin-top: 40px;
+  font-size: 16px;
+  line-height: 40px; }
+
+.concat3 {
+  margin-left: 120px;
+  margin-top: 40px;
+  font-size: 16px;
+  line-height: 40px; }
+
+.words01 {
+  margin-left: 60px;
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 40px;
+  float: left; }
+
+.words02 {
+  margin-left: 120px;
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 40px;
+  float: left; }
+
+.words03 {
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 40px;
+  float: left; }
+
+.words04 {
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 40px;
+  float: left; }
+
+.pape {
+  width: 10px; }
+
+/*# sourceMappingURL=register.css.map */
